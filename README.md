@@ -4,13 +4,13 @@
 Prometheus is a sleek, modern chat interface that combines the power of ChatGPT with voice interaction capabilities. Built with performance and user experience in mind, it provides a polished platform for natural conversations with AI.
 
 ## Tech Stack
-- [Create T3 App](https://create.t3.gg/) - The best way to start a full-stack, typesafe Next.js app
-- [shadcn/ui](https://ui.shadcn.com/) - Beautiful, accessible UI components
-- [Vercel AI SDK](https://sdk.vercel.ai/) - First-class support for AI features
-- [react-speech-recognition](https://www.npmjs.com/package/react-speech-recognition) - Voice input
-- [react-speech-kit](https://www.npmjs.com/package/react-speech-kit) - Voice output
+- Next.js 14 with App Router
+- TypeScript for type safety
+- Tailwind CSS for styling
+- OpenAI API for chat capabilities
+- Vercel AI SDK for streaming responses
 
-## Features
+## Features (Planned)
 - Modern, clean UI with smooth animations
 - Real-time chat with ChatGPT
 - Voice input and output
@@ -19,16 +19,16 @@ Prometheus is a sleek, modern chat interface that combines the power of ChatGPT 
 - Beautiful message bubbles and transitions
 
 ## Development Status
-Current Version: 1.0.0-alpha
+Current Version: 0.1.0 (Fresh Start)
 
-### V1 Implementation Plan
+### Implementation Plan
 1. ⬜ Base Setup
-   - Set up T3 App with TypeScript and Tailwind
-   - Configure shadcn/ui components
-   - Set up Vercel deployment
+   - Set up Next.js with TypeScript
+   - Configure Tailwind CSS
+   - Set up project structure
 
 2. ⬜ Core Chat Interface
-   - Implement chat UI with shadcn/ui
+   - Implement basic chat UI
    - Add ChatGPT integration
    - Add loading states and error handling
 
@@ -42,7 +42,7 @@ Current Version: 1.0.0-alpha
    - Implement dark mode
    - Final UI adjustments
 
-### Future Features (V2+)
+### Future Features
 - Conversation history
 - Custom AI personalities
 - Export conversations
